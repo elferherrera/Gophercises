@@ -1,9 +1,10 @@
 package main
 
 import (
-	"fjherrera/ch04/link"
 	"fmt"
 	"strings"
+
+	"github.com/elferherrera/Gophercises/ch04/link"
 )
 
 var exampleHTML = `

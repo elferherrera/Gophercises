@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fjherrera/ch03/cyoa"
 	"flag"
 	"fmt"
 	"log"
@@ -9,6 +8,8 @@ import (
 	"os"
 	"strings"
 	"text/template"
+
+	"github.com/elferherrera/Gophercises/ch03/cyoa"
 )
 
 func main() {

@@ -1,10 +1,11 @@
 package main
 
 import (
-	"fjherrera/ch04/link"
 	"flag"
 	"fmt"
 	"os"
+
+	"github.com/elferherrera/Gophercises/ch04/link"
 )
 
 func main() {

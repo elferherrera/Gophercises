@@ -1,9 +1,10 @@
 package main
 
 import (
-	"fjherrera/ch02/urlshort"
 	"fmt"
 	"net/http"
+
+	"github.com/elferherrera/Gophercises/ch02/urlshort"
 )
 
 func main() {
