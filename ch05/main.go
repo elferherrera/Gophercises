@@ -4,6 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"net/http"
+
+	"github.com/elferherrera/Gophercises/ch04/link"
 )
 
 func main() {
@@ -19,6 +21,8 @@ func main() {
 	defer resp.Body.Close()
 
 	links, _ := link.Parse(resp.Body)
+
+	fmt.Println(links)
 
 }
 
